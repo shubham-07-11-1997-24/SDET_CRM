@@ -25,9 +25,6 @@ public class CreateCampaignTest extends BaseClass {
 		String actualcampName= campaignInformation.getCampaignNameText();
 		webdriverUtility.verifyResult(actualcampName, expectedcampName);
 		webdriverUtility.verifyResult(actualcampName.equals(actualcampName));
-		//afdxcvsd
-		
-		
 		
 	}
 
