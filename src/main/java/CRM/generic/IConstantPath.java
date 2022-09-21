@@ -4,6 +4,7 @@ public interface IConstantPath {
 	//variable,method name= came1case
 	//interface,class,enum,annotion=pascel case
 	//static final member==>CAPICAL
+	//anootation changes here
 	String EXCE_PATH = "./src/test/resources/testdata.xlsx";
 //	String EXCE_PATH= System.getProperty("user.dr")+"/src/test/resources/WorkBook.xlsx";
 	String PROPERTY_FILE_PATH = "./src/test/resources/Testdata.properties";
