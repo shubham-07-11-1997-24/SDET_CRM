@@ -18,7 +18,7 @@ public class FileUtility {
 	public String getDataFromPropertyFile(String key) {
 		return pro.getProperty(key).trim();
 	}
-
+      //changes
 	public void initializePropertyFile(String filePath) throws IOException {
 		FileInputStream file = new FileInputStream(filePath);
 		pro = new Properties();
